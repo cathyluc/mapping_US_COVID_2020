@@ -62,12 +62,41 @@
         a {
             color: black
         }
+
+        #title {
+            position: absolute;
+            top: 0;
+            left: 0;
+            margin-top: 20px;
+            margin-left: 20px;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 30pt;
+            color: white
+        }
+
+
+        #subtitle {
+            position: absolute;
+            top: 0;
+            left: 0;
+            margin-top: 70px;
+            margin-left: 190px;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 15pt;
+            color: white
+        }
     </style>
 </head>
 
 <body>
     <div id="map"></div>
     <div id="legend"></div>
+    <div id="title">
+        COVID Cases in US 2020
+    </div>
+    <div id="subtitle">
+        Data Source: The New York Times
+    </div>
     <script>
         mapboxgl.accessToken =
             'pk.eyJ1IjoiY2F0aHlsdWMiLCJhIjoiY2xkcHFzNGJjMTVlNDNycXV1amVnZXp1dyJ9.hkogwR_3Hx8ivsTA8wa4Rw';
