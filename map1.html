@@ -80,7 +80,7 @@
     <div class='map-overlay' id='features'>
         <h2>US Covid Rates 2020</h2>
         <div id='text-description'>
-            <p>Hover over a state!</p>
+            <p>Hover over a county!</p>
         </div>
     </div>
     <div class='map-overlay' id='legend'></div>
@@ -89,7 +89,7 @@
 
         const map = new mapboxgl.Map({
                 container: 'map', // container ID
-                projection: "albers",
+                projection: 'albers',
                 style: 'mapbox://styles/mapbox/light-v10', // style URL
                 zoom: 3.7, // starting zoom
                 center: [-100, 40] // starting center
